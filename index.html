@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Bac 7or | باك حر</title>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+   <!-- font awesome cdn link  -->
+   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style1.css">
+
+</head>
+<body >
+   
+<!-- header section starts  -->
+
+<header class="header" >
+
+   <a href="index.html" class="logo"><img src="/images/logo.png" height="60" width="60" alt="Bac 7or | باك حر"></a>
+
+   <nav class="navbar">
+      <div id="close-navbar" class="fas fa-times"></div>
+      <a href="index.html">الرئيسية</a>
+      
+      <a href="courses.html">الدروس</a>
+      <a href="about.html">من نحن</a>
+      <a href="contact.html">اتصل بنا</a>
+      
+   </nav>
+   
+   <div class="icons">
+      <div id="account-btn" class="fas fa-user"></div>
+      <div id="menu-btn" class="fas fa-bars"></div>
+   </div>
+
+</header>
+
+<!-- account form section starts  -->
+
+<div class="account-form">
+
+   <div id="close-form" class="fas fa-times"></div>
+
+   <div class="buttons">
+      <span class="btn active login-btn">login</span>
+      <span class="btn register-btn">register</span>
+   </div>
+
+   <form class="login-form active" action="">
+      <h3>login now</h3>
+      <input type="email" placeholder="enter your email" class="box">
+      <input type="password" placeholder="enter your password" class="box">
+      <div class="flex">
+         <input type="checkbox" name="" id="remember-me">
+         <label for="remember-me">remember me</label>
+         <a href="#">forgot password?</a>
+      </div>
+      <input type="submit" value="login now" class="btn">
+   </form>
+
+   <form class="register-form" action="">
+      <h3>register now</h3>
+      <input type="email" placeholder="enter your email" class="box">
+      <input type="password" placeholder="enter your password" class="box">
+      <input type="password" placeholder="confirm your password" class="box">
+      <input type="submit" value="register now" class="btn">
+   </form>
+
+</div>
+
+<!-- account form section ends -->
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home">
+
+   <div class="swiper home-slider">
+      
+      <div class="swiper-wrapper">
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <h3> مرحبا بك في موقع باك حر 
+
+               </h3>
+               <p>هذا الموقع يغنيك عن البحث الطويل عن الدروس و التمارين التي يجب أن تراجعها قبل الامتحان, هل تود تجربته </p>
+               <a href="#subjects" class="btn">ابدأ</a>
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <h3> مرحبا بك في موقع باك حر 
+
+               </h3>
+               <p>هذا الموقع يغنيك عن البحث الطويل عن الدروس و التمارين التي يجب أن تراجعها قبل الامتحان, هل تود تجربته </p>
+               <a href="#subjects" class="btn">ابدأ</a>
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+            <div class="content">
+               <h3> مرحبا بك في موقع باك حر 
+
+               </h3>
+               <p>هذا الموقع يغنيك عن البحث الطويل عن الدروس و التمارين التي يجب أن تراجعها قبل الامتحان, هل تود تجربته </p>
+               <a href="#subjects" class="btn">ابدأ</a>
+            </div>
+         </section>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- subjects section starts  -->
+
+<section class="subjects" id="subjects">
+
+   <h1 class="heading">المواد المتوفرة</h1>
+
+   <div class="box-container" dir="auto">
+
+      <a href="fr.html"><div class="box">
+         <img src="images/subject-icon-1.png" alt="">
+            <h3>الفرنسية</h3>
+            <p>12 modules</p>
+      </div></a>
+
+      <a href="math.html"><div class="box">
+         <img src="images/subject-icon-2.png" alt="">
+            <h3>الرياضيات</h3>
+            <p>12 modules</p>
+      </div></a>
+
+      <a href="eng.html">
+         <div class="box">
+            <img src="images/subject-icon-3.png" alt="">
+            <h3>الانجليزية</h3>
+            <p>12 modules</p>
+         </div>
+      </a>
+
+      <a href="ph.html"><div class="box">
+         <img src="images/subject-icon-4.png" alt="">
+         <h3>الفزياء و الكمياء</h3>
+         <p>12 modules</p>
+      </div></a>
+
+      <a href="hg.html">
+         <div class="box">
+         <img src="images/subject-icon-5.png" alt="">
+         <h3>التاريخ و الجغرافيا</h3>
+         <p>12 modules</p>
+      </div></a>
+
+      <a href="phi.html">
+         <div class="box">
+            <img src="images/subject-icon-6.png" alt="">
+            <h3>الفلسفة</h3>
+            <p>12 modules</p>
+         </div>
+      </a>
+
+   </div>
+
+</section>
+
+<!-- subjects section ends -->
+
+<!-- home courses slider section starts  -->
+
+<section class="home-courses" dir="auto">
+
+   <h1 class="heading"> الدروس الأكثر زيارة </h1>
+
+   <div class="swiper home-courses-slider" >
+
+      <div class="swiper-wrapper">
+
+        
+
+            <a href="math.html">
+               <div class="swiper-slide slide">
+                  <div class="image">
+                     <img src="images/azz.jpg" alt="">
+                     <h3>الرياضيات</h3>
+                  </div>
+                  <div class="content">
+                     <h3>الرياضيات</h3>
+                     <p>هل تود التوجه نحو صفحة هذا الدرس</p>
+                     <a href="math.html" class="btn">اضغط هنا</a>
+                  </div>
+               </div>
+      
+            </a>
+   
+            <a href="fr.html">
+               <div class="swiper-slide slide">
+                  <div class="image">
+                     <img src="images/course-1-2.png" alt="">
+                     <h3>الفرنسية</h3>
+                  </div>
+                  <div class="content">
+                     <h3>الفرنسية</h3>
+                     <p>هل تود التوجه نحو صفحة هذا الدرس</p>
+                     <a href="fr.html" class="btn">اضغط هنا</a>
+                  </div>
+               </div>
+            </a>
+            <a href="ph.html">
+               <div class="swiper-slide slide">
+                  <div class="image">
+                     <img src="images/course-1-3.png" alt="">
+                     <h3>الفزياء و الكمياء</h3>
+                  </div>
+                  <div class="content">
+                     <h3>الفزياء و الكمياء</h3>
+                     <p>هل تود التوجه نحو صفحة هذا الدرس</p>
+                     <a href="ph.html" class="btn">اضغط هنا</a>
+                  </div>
+               </div>
+            </a>
+   
+            <a href="eng.html">
+               <div class="swiper-slide slide">
+                  <div class="image">
+                     <img src="images/course-1-2.png" alt="">
+                     <h3>الانجليزية</h3>
+                  </div>
+                  <div class="content">
+                     <h3>الانجليزية</h3>
+                     <p>هل تود التوجه نحو صفحة هذا الدرس</p>
+                     <a href="eng.html" class="btn">اضغط هنا</a>
+                  </div>
+               </div>
+            </a>
+            <a href="phi.html">
+               <div class="swiper-slide slide">
+                  <div class="image">
+                     <img src="images/course-1-1.png" alt="">
+                     <h3>الفلسفة</h3>
+                  </div>
+                  <div class="content">
+                     <h3>الفلسفة</h3>
+                     <p>هل تود التوجه نحو صفحة هذا الدرس</p>
+                     <a href="phi.html" class="btn">اضغط هنا</a>
+                  </div>
+               </div>
+            </a>
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- home courses slider section ends -->
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3 class="f"> <img src="/images/logo.png" height="40" width="40" alt=""> Bac 7or | باك حر </h3>
+         <p>هذا الموقع يغنيك عن البحث الطويل عن الدروس و التمارين التي يجب أن تراجعها قبل الامتحان</p>
+         <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3>روابط سريعة</h3>
+         <a href="home.html" class="link">الرئيسية</a>
+         <a href="about.html" class="link">من نحن</a>
+         <a href="courses.html" class="link">الدروس</a>
+         <a href="contact.html" class="link">اتصل بنا</a>
+      </div>
+
+      <!--   <div class="box">
+         <h3>useful links</h3>
+         <a href="#" class="link">help center</a>
+         <a href="#" class="link">ask questions</a>
+         <a href="#" class="link">send feedback</a>
+         <a href="#" class="link">private policy</a>
+         <a href="#" class="link">terms of use</a>
+      </div>-->
+
+      <div class="box">
+         <h3>النشرة الإخبارية</h3>
+         <p>اشترك كي يصلك كل جديد</p>
+         <form action="">
+            <input type="email" name="" placeholder="أدخل بريدك الالكتروني" id="" class="email">
+            <input type="submit" value="اشترك" class="btn">
+         </form>
+      </div>
+
+   </div>
+
+   <div class="credit"> created by <span>Bac 7or | باك حر</span> | all rights reserved! 2022</div>
+   <hr>
+   <h4 style="text-align: center;">made with <i class="fa-solid fa-heart"></i> by :<a target="_blank" href="https://github.com/jbrane-abrouch"> Jbrane Abrouch | ⵊⴱⵔⴰⵏ ⵏⴰⵢⵜ ⵄⴱⵔⵓⵛ | جبران عبروش<i class="fa-brands fa-github"></i></a> </h4>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
